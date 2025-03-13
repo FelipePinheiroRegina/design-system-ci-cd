@@ -12,6 +12,9 @@ const meta: Meta<BoxProps> = {
   title: 'Surfaces/Box',
   component: Box,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {
     children: <Text>Testing my Box component</Text>,
   },

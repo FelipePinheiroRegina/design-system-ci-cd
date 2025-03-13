@@ -13,6 +13,9 @@ const meta: Meta<TextProps> = {
   title: 'Typography/Text',
   component: Text,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {
     children: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
   },

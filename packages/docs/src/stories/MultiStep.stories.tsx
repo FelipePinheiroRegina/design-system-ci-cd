@@ -5,6 +5,9 @@ const meta: Meta<MultiStepProps> = {
   title: 'Form/MultiStep',
   component: MultiStep,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {},
   decorators: [
     (Story) => {

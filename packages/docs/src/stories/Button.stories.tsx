@@ -6,6 +6,9 @@ const meta: Meta<ButtonProps> = {
   title: 'Typography/Button',
   component: Button,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {
     children: 'Send',
   },

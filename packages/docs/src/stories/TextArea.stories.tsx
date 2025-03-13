@@ -5,6 +5,9 @@ const meta: Meta<TextAreaProps> = {
   title: 'Typography/TextArea',
   component: TextArea,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {},
   decorators: [
     (Story) => {

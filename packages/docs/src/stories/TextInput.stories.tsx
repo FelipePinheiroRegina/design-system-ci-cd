@@ -5,6 +5,9 @@ const meta: Meta<TextInputProps> = {
   title: 'Typography/TextInput',
   component: TextInput,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {},
   decorators: [
     (Story) => {

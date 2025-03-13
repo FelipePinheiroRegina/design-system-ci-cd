@@ -5,6 +5,9 @@ const meta: Meta<CheckboxProps> = {
   title: 'Form/Checkbox',
   component: Checkbox,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {},
   decorators: [
     (Story) => {

@@ -29,6 +29,7 @@ const meta: Meta<AvatarProps> = {
     alt: 'Felipe Pinheiro',
   },
   parameters: {
+    layout: 'centered',
     docs: {
       description: {
         component:

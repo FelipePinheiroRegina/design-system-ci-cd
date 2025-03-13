@@ -13,6 +13,9 @@ const meta: Meta<HeadingProps> = {
   title: 'Typography/Heading',
   component: Heading,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   args: {
     children: 'Custom Heading',
   },
