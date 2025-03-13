@@ -4,13 +4,10 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '05-design-system/**' # Aciona o workflow apenas se houver mudanças dentro do monorepo
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,16 +17,12 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Instalar dependências
-        working-directory: 05-design-system
-        run: npm ci
+      - run: npm ci
 
-      - name: Build da documentação
-        working-directory: 05-design-system
-        run: npm run build
+      - run: npm run build
 
       - name: Deploy Storybook
-        working-directory: 05-design-system/packages/docs
+        working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
