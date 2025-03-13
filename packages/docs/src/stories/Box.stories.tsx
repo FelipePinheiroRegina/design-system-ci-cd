@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, BoxProps } from '@ignite-ui/react'
+import { Box, Text, BoxProps } from '@regina-ignite-ui/react'
 
 /**
  * O componente `Box` é um container genérico para envolver elementos.

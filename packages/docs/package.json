@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@regina-ignite-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,16 +11,16 @@
     "lint": "eslint src/**/*.tsx* --fix"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@regina-ignite-ui/eslint-config": "*",
+    "@regina-ignite-ui/react": "*",
+    "@regina-ignite-ui/tokens": "*",
     "@phosphor-icons/react": "^2.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.4",
-    "@ignite-ui/eslint-config": "*",
+    "@regina-ignite-ui/eslint-config": "*",
     "@storybook/addon-essentials": "^8.5.3",
     "@storybook/addon-interactions": "^8.5.3",
     "@storybook/blocks": "^8.5.3",

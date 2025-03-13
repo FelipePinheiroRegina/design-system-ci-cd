@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@ignite-ui/react'
+import { Text, TextProps } from '@regina-ignite-ui/react'
 
 /**
  * O componente `Text` é usado para renderizar textos estilizados.

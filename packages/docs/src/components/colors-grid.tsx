@@ -1,5 +1,5 @@
 import { ColorPalette, ColorItem } from '@storybook/blocks'
-import { colors } from '@ignite-ui/tokens'
+import { colors } from '@regina-ignite-ui/tokens'
 
 export function ColorsGrid() {
   return (

@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading, HeadingProps } from '@regina-ignite-ui/react'
 
 /**
  * O componente `Heading` renderiza um título semântico.

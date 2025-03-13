@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
+import { Box, Text, TextInput, TextInputProps } from '@regina-ignite-ui/react'
 
 const meta: Meta<TextInputProps> = {
   title: 'Typography/TextInput',
