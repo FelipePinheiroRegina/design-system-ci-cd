@@ -57,5 +57,6 @@ export const Disabled: Story = {
 export const WithPrefix: Story = {
   args: {
     prefix: 'call/',
+    placeholder: 'your-username',
   },
 }
