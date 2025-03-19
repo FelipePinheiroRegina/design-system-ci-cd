@@ -1,0 +1,3 @@
+import{j as t}from"./index-BwXyKlkv.js";import{useMDXComponents as r}from"./index-DwOlTBOG.js";import{M as i}from"./index-B2hPJ_Gi.js";import{T as s}from"./tokens-grid-DT03PiYQ.js";import{f as m}from"./index-CPJU6kza.js";import"./index-2yJIXLcc.js";import"./index-Bn05qqr6.js";import"./iframe-4dNkbFOA.js";import"./index-CXQShRbs.js";import"./index-DrFu-skq.js";function e(n){const o={h1:"h1",...r(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(i,{title:"Tokens/FontFamily's"}),`
+`,t.jsx(o.h1,{id:"ignite-ui",children:"Ignite UI"}),`
+`,t.jsx(s,{tokens:m})]})}function M(n={}){const{wrapper:o}={...r(),...n.components};return o?t.jsx(o,{...n,children:t.jsx(e,{...n})}):e(n)}export{M as default};

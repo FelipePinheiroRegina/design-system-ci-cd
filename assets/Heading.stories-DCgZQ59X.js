@@ -1,0 +1,8 @@
+import{j as m}from"./index-BwXyKlkv.js";import{H as l}from"./index-Cm49-Z1S.js";import"./index-2yJIXLcc.js";import"./index-Bn05qqr6.js";const g={title:"Typography/Heading",component:l,tags:["autodocs"],parameters:{layout:"centered",docs:{description:{component:"O componente `Heading` renderiza um título semântico.\n\n- **Por padrão**, o elemento HTML é um `<h2>`.\n- **Você pode alterar o elemento** usando a propriedade `as`, por exemplo: `'h1'`, `'h3'`, etc.\n- **Tamanhos disponíveis**: `'sm'`, `'md'`, `'lg'`, `'xl'`, `'2xl'`, `'3xl'`, `'4xl'`, `'5xl'`, `'6xl'`"}}},args:{children:"Custom Heading"},argTypes:{as:{control:"text",description:"Define qual elemento HTML será renderizado. Padrão: `<h2>`.",table:{defaultValue:{summary:"h2"}}},size:{control:"select",options:["sm","md","lg","xl","2xl","3xl","4xl","5xl","6xl"],description:"Define o tamanho do Heading. Valores aceitos: `sm`, `md`, `lg`, `xl`, `2xl`, `3xl`, `4xl`, `5xl`, `6xl`.",table:{defaultValue:{summary:"md"}}},children:{control:"text",description:"Define o conteúdo do título."}}},e={},o={args:{as:"h1",size:"2xl",children:"H1 Custom Heading"},render:i=>m.jsx(l,{...i})};var r,a,s;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(s=(a=e.parameters)==null?void 0:a.docs)==null?void 0:s.source}}};var t,n,d;o.parameters={...o.parameters,docs:{...(t=o.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    as: 'h1',
+    size: '2xl',
+    children: 'H1 Custom Heading'
+  },
+  render: args => <Heading {...args} />
+}`,...(d=(n=o.parameters)==null?void 0:n.docs)==null?void 0:d.source}}};const h=["Primary","Secondary"];export{e as Primary,o as Secondary,h as __namedExportsOrder,g as default};
